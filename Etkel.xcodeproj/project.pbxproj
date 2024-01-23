@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D11366B2B5FFC3500B611DA /* EtkelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D11366A2B5FFC3500B611DA /* EtkelApp.swift */; };
+		3D11366D2B5FFC3500B611DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D11366C2B5FFC3500B611DA /* ContentView.swift */; };
+		3D11366F2B5FFC3600B611DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D11366E2B5FFC3600B611DA /* Assets.xcassets */; };
+		3D1136722B5FFC3600B611DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D1136712B5FFC3600B611DA /* Preview Assets.xcassets */; };
+		3D11367C2B5FFC3600B611DA /* EtkelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D11367B2B5FFC3600B611DA /* EtkelTests.swift */; };
+		3D1136862B5FFC3600B611DA /* EtkelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1136852B5FFC3600B611DA /* EtkelUITests.swift */; };
+		3D1136882B5FFC3600B611DA /* EtkelUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1136872B5FFC3600B611DA /* EtkelUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D1136782B5FFC3600B611DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D11365F2B5FFC3500B611DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D1136662B5FFC3500B611DA;
+			remoteInfo = Etkel;
+		};
+		3D1136822B5FFC3600B611DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D11365F2B5FFC3500B611DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D1136662B5FFC3500B611DA;
+			remoteInfo = Etkel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D1136672B5FFC3500B611DA /* Etkel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Etkel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D11366A2B5FFC3500B611DA /* EtkelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtkelApp.swift; sourceTree = "<group>"; };
+		3D11366C2B5FFC3500B611DA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3D11366E2B5FFC3600B611DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D1136712B5FFC3600B611DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3D1136772B5FFC3600B611DA /* EtkelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EtkelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D11367B2B5FFC3600B611DA /* EtkelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtkelTests.swift; sourceTree = "<group>"; };
+		3D1136812B5FFC3600B611DA /* EtkelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EtkelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D1136852B5FFC3600B611DA /* EtkelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtkelUITests.swift; sourceTree = "<group>"; };
+		3D1136872B5FFC3600B611DA /* EtkelUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtkelUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D1136642B5FFC3500B611DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D1136742B5FFC3600B611DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D11367E2B5FFC3600B611DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D11365E2B5FFC3500B611DA = {
+			isa = PBXGroup;
+			children = (
+				3D1136692B5FFC3500B611DA /* Etkel */,
+				3D11367A2B5FFC3600B611DA /* EtkelTests */,
+				3D1136842B5FFC3600B611DA /* EtkelUITests */,
+				3D1136682B5FFC3500B611DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D1136682B5FFC3500B611DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D1136672B5FFC3500B611DA /* Etkel.app */,
+				3D1136772B5FFC3600B611DA /* EtkelTests.xctest */,
+				3D1136812B5FFC3600B611DA /* EtkelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D1136692B5FFC3500B611DA /* Etkel */ = {
+			isa = PBXGroup;
+			children = (
+				3D11366A2B5FFC3500B611DA /* EtkelApp.swift */,
+				3D11366C2B5FFC3500B611DA /* ContentView.swift */,
+				3D11366E2B5FFC3600B611DA /* Assets.xcassets */,
+				3D1136702B5FFC3600B611DA /* Preview Content */,
+			);
+			path = Etkel;
+			sourceTree = "<group>";
+		};
+		3D1136702B5FFC3600B611DA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3D1136712B5FFC3600B611DA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3D11367A2B5FFC3600B611DA /* EtkelTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D11367B2B5FFC3600B611DA /* EtkelTests.swift */,
+			);
+			path = EtkelTests;
+			sourceTree = "<group>";
+		};
+		3D1136842B5FFC3600B611DA /* EtkelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3D1136852B5FFC3600B611DA /* EtkelUITests.swift */,
+				3D1136872B5FFC3600B611DA /* EtkelUITestsLaunchTests.swift */,
+			);
+			path = EtkelUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D1136662B5FFC3500B611DA /* Etkel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D11368B2B5FFC3600B611DA /* Build configuration list for PBXNativeTarget "Etkel" */;
+			buildPhases = (
+				3D1136632B5FFC3500B611DA /* Sources */,
+				3D1136642B5FFC3500B611DA /* Frameworks */,
+				3D1136652B5FFC3500B611DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Etkel;
+			productName = Etkel;
+			productReference = 3D1136672B5FFC3500B611DA /* Etkel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D1136762B5FFC3600B611DA /* EtkelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D11368E2B5FFC3600B611DA /* Build configuration list for PBXNativeTarget "EtkelTests" */;
+			buildPhases = (
+				3D1136732B5FFC3600B611DA /* Sources */,
+				3D1136742B5FFC3600B611DA /* Frameworks */,
+				3D1136752B5FFC3600B611DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D1136792B5FFC3600B611DA /* PBXTargetDependency */,
+			);
+			name = EtkelTests;
+			productName = EtkelTests;
+			productReference = 3D1136772B5FFC3600B611DA /* EtkelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3D1136802B5FFC3600B611DA /* EtkelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D1136912B5FFC3600B611DA /* Build configuration list for PBXNativeTarget "EtkelUITests" */;
+			buildPhases = (
+				3D11367D2B5FFC3600B611DA /* Sources */,
+				3D11367E2B5FFC3600B611DA /* Frameworks */,
+				3D11367F2B5FFC3600B611DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D1136832B5FFC3600B611DA /* PBXTargetDependency */,
+			);
+			name = EtkelUITests;
+			productName = EtkelUITests;
+			productReference = 3D1136812B5FFC3600B611DA /* EtkelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D11365F2B5FFC3500B611DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					3D1136662B5FFC3500B611DA = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					3D1136762B5FFC3600B611DA = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 3D1136662B5FFC3500B611DA;
+					};
+					3D1136802B5FFC3600B611DA = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 3D1136662B5FFC3500B611DA;
+					};
+				};
+			};
+			buildConfigurationList = 3D1136622B5FFC3500B611DA /* Build configuration list for PBXProject "Etkel" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D11365E2B5FFC3500B611DA;
+			productRefGroup = 3D1136682B5FFC3500B611DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D1136662B5FFC3500B611DA /* Etkel */,
+				3D1136762B5FFC3600B611DA /* EtkelTests */,
+				3D1136802B5FFC3600B611DA /* EtkelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D1136652B5FFC3500B611DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D1136722B5FFC3600B611DA /* Preview Assets.xcassets in Resources */,
+				3D11366F2B5FFC3600B611DA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D1136752B5FFC3600B611DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D11367F2B5FFC3600B611DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D1136632B5FFC3500B611DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D11366D2B5FFC3500B611DA /* ContentView.swift in Sources */,
+				3D11366B2B5FFC3500B611DA /* EtkelApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D1136732B5FFC3600B611DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D11367C2B5FFC3600B611DA /* EtkelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D11367D2B5FFC3600B611DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D1136882B5FFC3600B611DA /* EtkelUITestsLaunchTests.swift in Sources */,
+				3D1136862B5FFC3600B611DA /* EtkelUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D1136792B5FFC3600B611DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D1136662B5FFC3500B611DA /* Etkel */;
+			targetProxy = 3D1136782B5FFC3600B611DA /* PBXContainerItemProxy */;
+		};
+		3D1136832B5FFC3600B611DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D1136662B5FFC3500B611DA /* Etkel */;
+			targetProxy = 3D1136822B5FFC3600B611DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3D1136892B5FFC3600B611DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D11368A2B5FFC3600B611DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D11368C2B5FFC3600B611DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Etkel/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Etkel-App.Etkel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D11368D2B5FFC3600B611DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Etkel/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Etkel-App.Etkel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3D11368F2B5FFC3600B611DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Etkel-App.EtkelTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Etkel.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Etkel";
+			};
+			name = Debug;
+		};
+		3D1136902B5FFC3600B611DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Etkel-App.EtkelTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Etkel.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Etkel";
+			};
+			name = Release;
+		};
+		3D1136922B5FFC3600B611DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Etkel-App.EtkelUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Etkel;
+			};
+			name = Debug;
+		};
+		3D1136932B5FFC3600B611DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Etkel-App.EtkelUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Etkel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D1136622B5FFC3500B611DA /* Build configuration list for PBXProject "Etkel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D1136892B5FFC3600B611DA /* Debug */,
+				3D11368A2B5FFC3600B611DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D11368B2B5FFC3600B611DA /* Build configuration list for PBXNativeTarget "Etkel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D11368C2B5FFC3600B611DA /* Debug */,
+				3D11368D2B5FFC3600B611DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D11368E2B5FFC3600B611DA /* Build configuration list for PBXNativeTarget "EtkelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D11368F2B5FFC3600B611DA /* Debug */,
+				3D1136902B5FFC3600B611DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D1136912B5FFC3600B611DA /* Build configuration list for PBXNativeTarget "EtkelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D1136922B5FFC3600B611DA /* Debug */,
+				3D1136932B5FFC3600B611DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D11365F2B5FFC3500B611DA /* Project object */;
+}

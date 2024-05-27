@@ -1,10 +1,10 @@
-# (إتكل) Warranty Management App
+# A (إتكل) Warranty Management App
 
 ## Objective
 The objective of this project is to develop '(إتكل)', a mobile application designed to help users manage and track their product warranties. This app aims to ensure that users never miss warranty deadlines, thus avoiding unexpected expenses.
 
 ## Description
-'(إتكل)' is a user-friendly mobile application that assists users in organizing their product warranties. By allowing users to upload their warranty details, the app provides timely reminders before warranty expiration dates. This proactive approach helps users take full advantage of their warranty benefits and stay organized.
+A "إتكل" is a user-friendly mobile application that assists users in organizing their product warranties. By allowing users to upload their warranty details, theapp provides timely reminders before warranty expiration dates. This proactive approach helps users take full advantage of their warranty benefits and stay organized.
 
 ### Features
 - **Warranty Management**: Easily upload and store warranty details for various products.
@@ -22,7 +22,7 @@ The objective of this project is to develop '(إتكل)', a mobile application d
 ## Screenshots
 Here are some screenshots of the application in action:
 
-![image](https://github.com/Amal-Alhamad/EtkelApp/assets/117589529/e7babaaa-e6f3-481c-b458-556ee55b1de2)
+![image](https://github.com/Amal-Alhamad/EtkelApp/assets/117589529/c8882493-66d1-48f8-9f16-78bfcf300699)
 
 
 ## Challenges

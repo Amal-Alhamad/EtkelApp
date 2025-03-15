@@ -25,7 +25,7 @@ Here are some screenshots of the application in action:
 ![image](https://github.com/Amal-Alhamad/EtkelApp/assets/117589529/c8882493-66d1-48f8-9f16-78bfcf300699)
 
 
-## Challenges
+## Challenges 
 - **Timely Notifications**: Ensuring that notifications are delivered promptly and accurately.
 - **Data Security**: Maintaining the security and privacy of user data.
 
